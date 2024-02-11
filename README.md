@@ -1,2 +1,8 @@
 # nlw-experts
-Primeiro exercício da trilha de aprendizado HTML, CSS e JS da Rocketseat
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+-JavaScript
+- Github

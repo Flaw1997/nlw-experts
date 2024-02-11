@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=""stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header>
+          <img src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg" alt="Logo NLW">
+        <!-- Um título principal para a página -->
+          <h1>Teste seus conhecimentos</h1>
+        </header>
+        <!-- Um div com o id 'quiz' onde as perguntas do quiz serão adicionadas -->
+        <div id="quiz"></div>
+      
+        <!-- Um template para um item de quiz -->
+        <template>
+          <!-- Um container para um item de quiz -->
+          <div class="quiz-item">
+            <!-- O título da pergunta -->
+            <h3>
+              Pergunta 01
+            </h3> 
+            <!-- Uma lista de definição (dl) para as opções de resposta -->
+            <dl>
+              <!-- Um termo de definição (dt) para uma opção de resposta -->
+              <dt>
+                <!-- Um input do tipo radio para selecionar a resposta -->
+                <input type="radio" name="item" value="0">
+                <!-- O texto da opção de resposta -->
+                <span>
+                  Resposta A
+                <span> 
+              </dt>
+            </dl>
+          </div>    
+        </template>
+      
+        <div id="acertos">
+          <strong>Acertos</strong>
+          <span>0 de 10</span>
+        </div>
+      
+      
+      </main>
+      <script src=".index.js"></script>
+</body>
+</html>
