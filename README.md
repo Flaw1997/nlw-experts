@@ -4,5 +4,5 @@
 
 - HTML
 - CSS
--JavaScript
+- JavaScript
 - Github
