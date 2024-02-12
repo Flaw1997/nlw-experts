@@ -108,7 +108,7 @@ const template = document.querySelector('template'); // Seleciona o elemento 'te
 // Definindo um conjunto para armazenar as respostas corretas e exibindo o total de respostas corretas
 const corretas = new Set();
 const totalDePerguntas = perguntas.length;
-const mostrarTotal = document.querySelector('#Acertos span');
+const mostrarTotal = document.querySelector('#acertos span');
 mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas;
 
 // Iterando sobre cada pergunta no array 'perguntas'
